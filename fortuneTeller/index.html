@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+   
+
+    <title>Fortune Teller</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Fortune Teller
+    </h1>
+    <img src = "https://media.istockphoto.com/id/155391040/photo/fortune-tellers-hands.jpg?s=612x612&w=0&k=20&c=RyF3I-oM6E2Olv4zqZwOKJWl-AQuaC1CocbH6nWlJAE=">
+    <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
+      <label for="namefield">Name:</label>
+      <input type="text" id="namefield" name="name" placeholder="your name" required>
+      <br>
+      <label for="questionfield">Question:</label>
+      <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
+      <br>
+      <label for = "birthday">Date of Birth:</label>
+      <input type = "date" id = "birthday" name = "birthday">
+      <br>
+      <label for = "zodiac">Zodiac Sign:</label>
+      <input type = "text" id = "zodiac" name = "zodiac" placeholder = "Taurus">
+      <br>
+      <label for = "luckynumber">Lucky Number:</label>
+      <input type = "number" id = "luckynumber" name = "luckynumber" placeholder = "26">
+      <br>
+      <label for = "grade">Grade:</label>
+      <select id = "grade" name = "grade">
+        <option value = "ninth">9th</option>
+        <option value = "tenth">10th</option>
+        <option value = "eleventh">11th</option>
+        <option value = "twelth">12th</option>
+    </select>
+     <br>
+     <p>Any predictions?</p>
+        <label for = "textbox" ></label>
+        <textarea name = "textbox" id = "" cols = "30" rows = "10"></textarea> 
+        <br> 
+      <input type="submit">
+    </form>
+    <div id="fortune"></div>
+  </body>
+</html>
