@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Artifact</title>
+    <style>
+      body{
+          background-color:rgb(193, 250, 177)
+      }
+  </style>
 </head>
 <body>
+
     <h1>What Endangered Animal Are You?</h1>
-    <img src = "https://media.cntraveller.com/photos/611befdcdb797d0116fd4d86/16:9/w_2580,c_limit/end.jpg" width = "500">
+    <img src = "images/end.webp" width = "500">
     <p><strong>Take this quiz to find out and learn more about endangered animals!</strong></p>
     <p>Select the best-fit answer for each question:</p>
-    <form method="get"action= https://lilyalessi.github.io/Lily-Capstone/results.html>
+    <form action="results.html" method="get">
       <label for="namefield">1. Name:</label>
       <input type="text" id="namefield" name="name" placeholder="your name">
       <br>
@@ -27,21 +33,16 @@
       <br>
       <p>4. It's dinner time! What are you choosing?</p>
       <label>
-      <input type = "radio" id = "seafood" name = "food"><img src = "https://www.foodandwine.com/thmb/x5Xd9vyWwaPochuUbAU3typL8RM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-seafood-boil-with-cajun-seasoning-hero-02-e202a099e35a4cd2b00aadb486eed146.jpg" width = "200">
+      <input type = "radio" id = "seafood" name = "food" value="seafood"><img src = "images/FAW-seafood-boil.jpg" width = "200">
       </label>
       <br>
       <label>
-        <input type = "radio" id = "steak" name = "food"><img src = "https://static01.nyt.com/images/2023/12/07/multimedia/LH-Flank-steak/nd-cucumber-salad-hwtv-jumbo.jpg" width = "200">
+        <input type = "radio" id = "steak" name = "food" value="steak"><img src = "images/grilled-steak.jpg" width = "200">
       </label>
       <br>
       <label>
-        <input type = "radio" id = "salad" name = "food"><img src = "https://cdn.loveandlemons.com/wp-content/uploads/2021/04/green-salad.jpg" width = "200">
+        <input type = "radio" id = "salad" name = "food" value="salad"><img src = "images/Garden-Salad.jpg" width = "200">
       </label>
-      <br>
-      <label>
-        <input type = "radio" id = "all" name = "food">All of it!
-      </label>
-      <br>
       <br>
       <input type = "submit" value = "SUBMIT">
       </form>
