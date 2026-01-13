@@ -10,11 +10,12 @@ h1{
 
 h2{
     color:dodgerblue;
-    text-align: center;
+   
 }
 
 p{
-    color:rgb(47, 179, 235)
+    color:rgb(47, 179, 235);
+    font-weight: 800;
 }
 
 
