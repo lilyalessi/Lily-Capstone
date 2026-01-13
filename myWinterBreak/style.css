@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+h1{
+    color:mediumblue;
+    text-align: center;
+    font-family:Verdana, Cambria;
+}
+
+h2{
+    color:dodgerblue;
+    text-align: center;
+}
+
+p{
+    color:rgb(47, 179, 235)
+}
+
+
+
