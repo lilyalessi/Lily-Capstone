@@ -1,21 +1,47 @@
+/*I chose a blue color scheme because of the cold weather! */
+
 body {
     background-color: lightblue;
+    text-align: center;
 }
 
 h1{
     color:mediumblue;
     text-align: center;
-    font-family:Verdana, Cambria;
+    font-family: Georgia;
 }
 
 h2{
     color:dodgerblue;
+    border-style:dotted;
+    border-width:0.2cap;
    
 }
 
 p{
     color:rgb(47, 179, 235);
     font-weight: 800;
+    font-family: monospace;
+}
+
+h3{
+    color: azure;
+    font-style: italic;
+    text-align: left;
+}
+
+#highlight {
+    color:rgb(255, 255, 255);
+}
+
+.listSection{
+    font-style: italic;
+    color:azure;
+    text-align: left;
+}
+
+#textColor {
+    color:rgb(125, 193, 56)
 }
 
 
