@@ -11,33 +11,45 @@ h1{
     font-family: Georgia;
 }
 
-h2{
-    color:dodgerblue;
-    border-style:dotted;
-    border-width:0.2cap;
-   
-}
 
 p{
     color:rgb(47, 179, 235);
     font-weight: 800;
     font-family: monospace;
+    margin: 50px;
+    
 }
 
 h3{
     color: azure;
     font-style: italic;
     text-align: left;
+    font-size: 22px;
+}
+
+.listSection{
+    background: lightskyblue;
+    font-style: italic;
+    font-size: 14px;
+    color:deepskyblue;
+    text-align: left;
+    padding: 1px;
+}
+
+.insideList{
+    background: azure;
+    padding: 4px;
+}
+
+.header{
+    margin:100px;  
+    color:dodgerblue;
+    border-style:dotted;
+    border-width:0.2cap;
 }
 
 #highlight {
     color:rgb(255, 255, 255);
-}
-
-.listSection{
-    font-style: italic;
-    color:azure;
-    text-align: left;
 }
 
 #textColor {
